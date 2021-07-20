@@ -1,0 +1,5 @@
+select count(*) FROM t_trip_202006 where dayofweek(STR_TO_DATE(SUBSTRING(starttime FROM 1 FOR 10) , '%Y-%m-%d'))=3 and SUBSTRING(starttime FROM 12 FOR 2)=5 ;
+这段语句是需求一的。
+查询结果是，所有站点加在一起，周X的第Y个小时有多少人借车。
+上面这条语句中，3是周2（因为mysql默认周日是一周第一天是1，所以dayofweek函数查到的实际是我们习惯的星期数量+1）,5是五点（24小时制），即查询了所有借车记录中，所有周二5:00到5:59的借车数量。
+本语句在老师给定的数据包中（180万条数据，每次查询用时不到2秒，平均1.7秒左右，因此可以每次调用）。
