@@ -1,0 +1,6 @@
+select count(*),start_station_id FROM t_trip_202006 where dayofweek(STR_TO_DATE(SUBSTRING(starttime FROM 1 FOR 10) , '%Y-%m-%d'))=3 and SUBSTRING(starttime FROM 12 FOR 2)=5 GROUP BY start_station_id order by count(*) desc limit 10;
+
+本语句计算了每个站点在周X的第Y小时的访问量，并对访问量做了降序排列，从而通过limit10取得了该小时内访问量的累计top10。
+例如本语句中查询了周2的第5小时，访问量前十名的start_station_id。
+其中，周2在语句中体现为3，是因为sql默认周日为一周的第一天，因此周2的应该是3.
+查询速度为1.7s左右，适于频繁使用。
