@@ -2,9 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>热力图Demo</title>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/bmap.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/info.js"></script>
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=3.0&ak=vQV1xW48CytDdo7XmGlT0hv3xGlod4nF">
+    </script>
+    <script src="js/geoCoordMap.js"></script>
+    <script src="js/info.js"></script>
+    <style type="text/css">
+        .c1{
+            border: 1px solid black;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
+<div id="main" style="height:800px;margin: 0px auto"></div>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('main'));
+    var app = {};
 
+    var chartDom = document.getElementById('main');
+    var myChart = echarts.init(chartDom);
+    var option;
+
+    $.get("hangzhou-tracks.json", function (data) {
+
+        var points = [].concat.apply([], data.map(function (track) {
+            return track.map(function (seg) {
+                return seg.coord.concat([1]);
+            });
+        }));
+        myChart.setOption(option = {
+            animation: false,
+            bmap: {
+                center: [120.13066322374, 30.240018034923],
+                zoom: 14,
+                roam: true
+            },
+            visualMap: {
+                show: false,
+                top: 'top',
+                min: 0,
+                max: 5,
+                seriesIndex: 0,
+                calculable: true,
+                inRange: {
+                    color: ['blue', 'blue', 'green', 'yellow', 'red']
+                }
+            },
+            series: [{
+                type: 'heatmap',
+                coordinateSystem: 'bmap',
+                data: points,
+                pointSize: 5,
+                blurSize: 6
+            }]
+        });
+        // 添加百度地图插件
+        var bmap = myChart.getModel().getComponent('bmap').getBMap();
+        bmap.addControl(new BMap.MapTypeControl());
+    });
+</script>
 </body>
 </html>

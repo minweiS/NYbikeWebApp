@@ -1,0 +1,45 @@
+需要向数据库请求的数据：
+select 站点id，出站热度，入站热度 from 表 where 某一天某一时段（纽约时间）
+
+select DISTINCT station_id,
+(SELECT COUNT(*) FROM t_trip_202006
+WHERE start_station_id=72
+AND STR_TO_DATE(SUBSTR(starttime FROM 1 FOR 18),'%Y-%m-%d %T') > '2020-06-01 7:00'
+AND STR_TO_DATE(SUBSTR(starttime FROM 1 FOR 18),'%Y-%m-%d %T') < '2020-06-01 9:00') ChuHeat,
+(SELECT COUNT(*) FROM t_trip_202006
+ WHERE end_station_id=72
+ AND STR_TO_DATE(SUBSTR(stoptime FROM 1 FOR 18),'%Y-%m-%d %T') > '2020-06-01 7:00'
+ AND STR_TO_DATE(SUBSTR(stoptime FROM 1 FOR 18),'%Y-%m-%d %T') < '2020-06-01 9:00') RuHeat
+ from t_status
+ where station_id = 72;
+一个点十秒
+
+出站热度：
+select count(*) from t_trip_202006 where start_station_id=? and 出站时间在某一天的某一时段内
+
+SELECT COUNT(*) FROM t_trip_202006
+WHERE start_station_id=72
+AND STR_TO_DATE(SUBSTR(starttime FROM 1 FOR 18),'%Y-%m-%d %T') > '2020-06-01 7:00'
+AND STR_TO_DATE(SUBSTR(starttime FROM 1 FOR 18),'%Y-%m-%d %T') < '2020-06-01 9:00';
+
+入站热度：
+select count(*) from 表 where 站点id and 入站时间在某一天的某一时段内
+
+SELECT COUNT(*) FROM t_trip_202006
+WHERE end_station_id=72
+AND STR_TO_DATE(SUBSTR(stoptime FROM 1 FOR 18),'%Y-%m-%d %T') > '2020-06-01 7:00'
+AND STR_TO_DATE(SUBSTR(stoptime FROM 1 FOR 18),'%Y-%m-%d %T') < '2020-06-01 9:00';
+
+
+时间太长需要数据库建一张新表 t_heatMap
+属性: 日期(年月日) 时间段(1-7) 站点id 出站热度 入站热度
+
+时段划分为：
+7-9     早上通勤
+10-12   上午工作
+13-14   午休
+15-17   下午工作
+18-20   下班
+21-1    夜生活
+2-6     午夜
+
