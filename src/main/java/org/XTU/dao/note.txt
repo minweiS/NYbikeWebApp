@@ -40,6 +40,7 @@ AND STR_TO_DATE(SUBSTR(stoptime FROM 1 FOR 18),'%Y-%m-%d %T') < '2020-06-01 9:00
 13-14   午休
 15-17   下午工作
 18-20   下班
-21-1    夜生活
-2-6     午夜
+21-23    夜生活
+0-6     午夜
 
+select stationid,out,in from t_heatMap where
