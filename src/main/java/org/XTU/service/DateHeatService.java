@@ -23,4 +23,19 @@ public class DateHeatService {
         //3、返回封装数据
        return stationsheat;
     }
+    public List<StationHeat> getStationsHeat2(String date,int time){
+        //1、调用dao层方法查数据
+        List<Entity> list = dao.listStaionsHeatByDateandTime2(date,time);
+        //2、封装数据
+        List<StationHeat> stationsheat = new ArrayList<>();
+        for(Entity entity : list){
+            StationHeat stationHeat = new StationHeat();
+            stationHeat.setStation_id(entity.getInt("stationid"));
+            stationHeat.setHeat(entity.getInt("intime"));
+            stationsheat.add(stationHeat);
+        }
+        //3、返回封装数据
+       return stationsheat;
+    }
+
 }

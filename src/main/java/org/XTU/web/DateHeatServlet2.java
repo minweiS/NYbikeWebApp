@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/data/OutHeatMap")
-public class DateHeatServlet extends HttpServlet {
+@WebServlet("/data/InHeatMap")
+public class DateHeatServlet2 extends HttpServlet {
     DateHeatService service = new DateHeatService();
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
@@ -24,7 +24,7 @@ public class DateHeatServlet extends HttpServlet {
         //2、类型转换
         int time = Integer.parseInt(timestr);
         //3、调用业务层方法
-        List<StationHeat> stationsheat = service.getStationsHeat(datestr,time);
+        List<StationHeat> stationsheat = service.getStationsHeat2(datestr,time);
 //        HotStation hs = service.findHotStation(datestr,time);
         //4、结果转json
         String result = JSONUtil.toJsonStr(stationsheat);
