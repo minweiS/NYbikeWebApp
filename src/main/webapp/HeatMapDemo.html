@@ -13,16 +13,16 @@
     <script src="js/geoCoordMap.js"></script>
     <script src="js/info.js"></script>
     <style type="text/css">
-        .c1{
+        .c1 {
             border: 1px solid black;
             overflow: hidden;
         }
     </style>
 </head>
 <body>
+<!--margin: 0px auto 自适应布局-->
 <div id="main" style="height:800px;margin: 0px auto"></div>
 <script type="text/javascript">
-    var myChart = echarts.init(document.getElementById('main'));
     var app = {};
 
     var chartDom = document.getElementById('main');
@@ -30,12 +30,13 @@
     var option;
 
     $.get("hangzhou-tracks.json", function (data) {
-
+        console.log(data)
         var points = [].concat.apply([], data.map(function (track) {
             return track.map(function (seg) {
                 return seg.coord.concat([1]);
             });
         }));
+        console.log(points)
         myChart.setOption(option = {
             animation: false,
             bmap: {
@@ -44,14 +45,14 @@
                 roam: true
             },
             visualMap: {
-                show: false,
+                show: true,
                 top: 'top',
                 min: 0,
                 max: 5,
                 seriesIndex: 0,
                 calculable: true,
                 inRange: {
-                    color: ['blue', 'blue', 'green', 'yellow', 'red']
+                    color: ['purple', 'blue', 'green', 'yellow', 'red']
                 }
             },
             series: [{

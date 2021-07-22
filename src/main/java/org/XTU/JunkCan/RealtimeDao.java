@@ -1,4 +1,4 @@
-package org.XTU.dao;
+package org.XTU.JunkCan;
 
 import cn.hutool.db.Db;
 import cn.hutool.db.Entity;

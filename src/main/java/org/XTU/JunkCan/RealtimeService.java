@@ -1,10 +1,9 @@
-package org.XTU.service;
+package org.XTU.JunkCan;
 
 import cn.hutool.db.Entity;
-import org.XTU.dao.RealtimeDao;
+import org.XTU.JunkCan.RealtimeDao;
 import org.XTU.pojo.HotStation;
 
-import java.security.PrivateKey;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,17 +44,17 @@ public class RealtimeService {
 //    }
 
     /**********************************************/
-    public HotStation findHotStation(String date, int hour) {
+    public HotStations findHotStation(String date, int hour) {
         //1.调用持久层方法查数据
         List<Entity> list = dao.listHotStation(date, hour);
         //2.声明封装数据的容器
         List<String> StationID = new ArrayList<>();
         List<Integer> OutTime = new ArrayList<>();
         //3.遍历结果，封装数据
-        for (Entity entity : list) {
-            StationID.add(entity.getStr("stationid"));
-            OutTime.add(entity.getInt("outtime"));
-        }
+//        for (Entity entity : list) {
+//            StationID.add(entity.getStr("stationid"));
+//            OutTime.add(entity.getInt("outtime"));
+//        }
         HotStation hs = new HotStation(StationID, OutTime);
         //4.返回封装数据
         return hs;

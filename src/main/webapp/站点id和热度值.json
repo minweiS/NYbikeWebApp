@@ -1,0 +1,3322 @@
+[
+  {
+    "heat": 11,
+    "station_id": 72
+  },
+  {
+    "heat": 9,
+    "station_id": 79
+  },
+  {
+    "heat": 3,
+    "station_id": 82
+  },
+  {
+    "heat": 25,
+    "station_id": 83
+  },
+  {
+    "heat": 13,
+    "station_id": 116
+  },
+  {
+    "heat": 5,
+    "station_id": 119
+  },
+  {
+    "heat": 5,
+    "station_id": 120
+  },
+  {
+    "heat": 11,
+    "station_id": 127
+  },
+  {
+    "heat": 17,
+    "station_id": 128
+  },
+  {
+    "heat": 4,
+    "station_id": 143
+  },
+  {
+    "heat": 1,
+    "station_id": 144
+  },
+  {
+    "heat": 4,
+    "station_id": 146
+  },
+  {
+    "heat": 10,
+    "station_id": 150
+  },
+  {
+    "heat": 22,
+    "station_id": 151
+  },
+  {
+    "heat": 5,
+    "station_id": 157
+  },
+  {
+    "heat": 5,
+    "station_id": 164
+  },
+  {
+    "heat": 16,
+    "station_id": 167
+  },
+  {
+    "heat": 10,
+    "station_id": 168
+  },
+  {
+    "heat": 11,
+    "station_id": 173
+  },
+  {
+    "heat": 8,
+    "station_id": 174
+  },
+  {
+    "heat": 15,
+    "station_id": 195
+  },
+  {
+    "heat": 6,
+    "station_id": 212
+  },
+  {
+    "heat": 1,
+    "station_id": 216
+  },
+  {
+    "heat": 6,
+    "station_id": 217
+  },
+  {
+    "heat": 17,
+    "station_id": 223
+  },
+  {
+    "heat": 13,
+    "station_id": 224
+  },
+  {
+    "heat": 3,
+    "station_id": 228
+  },
+  {
+    "heat": 13,
+    "station_id": 229
+  },
+  {
+    "heat": 12,
+    "station_id": 236
+  },
+  {
+    "heat": 11,
+    "station_id": 237
+  },
+  {
+    "heat": 13,
+    "station_id": 238
+  },
+  {
+    "heat": 4,
+    "station_id": 239
+  },
+  {
+    "heat": 5,
+    "station_id": 241
+  },
+  {
+    "heat": 1,
+    "station_id": 242
+  },
+  {
+    "heat": 2,
+    "station_id": 244
+  },
+  {
+    "heat": 6,
+    "station_id": 245
+  },
+  {
+    "heat": 15,
+    "station_id": 247
+  },
+  {
+    "heat": 3,
+    "station_id": 248
+  },
+  {
+    "heat": 6,
+    "station_id": 249
+  },
+  {
+    "heat": 16,
+    "station_id": 250
+  },
+  {
+    "heat": 10,
+    "station_id": 251
+  },
+  {
+    "heat": 10,
+    "station_id": 252
+  },
+  {
+    "heat": 11,
+    "station_id": 254
+  },
+  {
+    "heat": 6,
+    "station_id": 257
+  },
+  {
+    "heat": 9,
+    "station_id": 258
+  },
+  {
+    "heat": 6,
+    "station_id": 259
+  },
+  {
+    "heat": 5,
+    "station_id": 260
+  },
+  {
+    "heat": 2,
+    "station_id": 261
+  },
+  {
+    "heat": 2,
+    "station_id": 262
+  },
+  {
+    "heat": 4,
+    "station_id": 264
+  },
+  {
+    "heat": 10,
+    "station_id": 265
+  },
+  {
+    "heat": 8,
+    "station_id": 267
+  },
+  {
+    "heat": 11,
+    "station_id": 268
+  },
+  {
+    "heat": 7,
+    "station_id": 270
+  },
+  {
+    "heat": 8,
+    "station_id": 274
+  },
+  {
+    "heat": 2,
+    "station_id": 275
+  },
+  {
+    "heat": 5,
+    "station_id": 276
+  },
+  {
+    "heat": 4,
+    "station_id": 278
+  },
+  {
+    "heat": 9,
+    "station_id": 280
+  },
+  {
+    "heat": 14,
+    "station_id": 281
+  },
+  {
+    "heat": 6,
+    "station_id": 282
+  },
+  {
+    "heat": 12,
+    "station_id": 284
+  },
+  {
+    "heat": 34,
+    "station_id": 285
+  },
+  {
+    "heat": 9,
+    "station_id": 289
+  },
+  {
+    "heat": 8,
+    "station_id": 291
+  },
+  {
+    "heat": 12,
+    "station_id": 293
+  },
+  {
+    "heat": 15,
+    "station_id": 295
+  },
+  {
+    "heat": 22,
+    "station_id": 297
+  },
+  {
+    "heat": 5,
+    "station_id": 298
+  },
+  {
+    "heat": 13,
+    "station_id": 301
+  },
+  {
+    "heat": 13,
+    "station_id": 302
+  },
+  {
+    "heat": 6,
+    "station_id": 303
+  },
+  {
+    "heat": 10,
+    "station_id": 304
+  },
+  {
+    "heat": 16,
+    "station_id": 305
+  },
+  {
+    "heat": 20,
+    "station_id": 307
+  },
+  {
+    "heat": 5,
+    "station_id": 308
+  },
+  {
+    "heat": 6,
+    "station_id": 309
+  },
+  {
+    "heat": 7,
+    "station_id": 310
+  },
+  {
+    "heat": 18,
+    "station_id": 311
+  },
+  {
+    "heat": 9,
+    "station_id": 312
+  },
+  {
+    "heat": 3,
+    "station_id": 313
+  },
+  {
+    "heat": 4,
+    "station_id": 315
+  },
+  {
+    "heat": 12,
+    "station_id": 316
+  },
+  {
+    "heat": 12,
+    "station_id": 317
+  },
+  {
+    "heat": 11,
+    "station_id": 319
+  },
+  {
+    "heat": 15,
+    "station_id": 320
+  },
+  {
+    "heat": 2,
+    "station_id": 321
+  },
+  {
+    "heat": 13,
+    "station_id": 323
+  },
+  {
+    "heat": 7,
+    "station_id": 324
+  },
+  {
+    "heat": 11,
+    "station_id": 325
+  },
+  {
+    "heat": 16,
+    "station_id": 326
+  },
+  {
+    "heat": 5,
+    "station_id": 327
+  },
+  {
+    "heat": 11,
+    "station_id": 328
+  },
+  {
+    "heat": 10,
+    "station_id": 330
+  },
+  {
+    "heat": 8,
+    "station_id": 331
+  },
+  {
+    "heat": 4,
+    "station_id": 332
+  },
+  {
+    "heat": 11,
+    "station_id": 334
+  },
+  {
+    "heat": 9,
+    "station_id": 335
+  },
+  {
+    "heat": 19,
+    "station_id": 336
+  },
+  {
+    "heat": 7,
+    "station_id": 339
+  },
+  {
+    "heat": 7,
+    "station_id": 340
+  },
+  {
+    "heat": 5,
+    "station_id": 341
+  },
+  {
+    "heat": 7,
+    "station_id": 342
+  },
+  {
+    "heat": 4,
+    "station_id": 343
+  },
+  {
+    "heat": 12,
+    "station_id": 346
+  },
+  {
+    "heat": 6,
+    "station_id": 347
+  },
+  {
+    "heat": 12,
+    "station_id": 349
+  },
+  {
+    "heat": 41,
+    "station_id": 350
+  },
+  {
+    "heat": 7,
+    "station_id": 351
+  },
+  {
+    "heat": 4,
+    "station_id": 353
+  },
+  {
+    "heat": 8,
+    "station_id": 354
+  },
+  {
+    "heat": 10,
+    "station_id": 355
+  },
+  {
+    "heat": 4,
+    "station_id": 356
+  },
+  {
+    "heat": 18,
+    "station_id": 358
+  },
+  {
+    "heat": 10,
+    "station_id": 359
+  },
+  {
+    "heat": 7,
+    "station_id": 360
+  },
+  {
+    "heat": 19,
+    "station_id": 361
+  },
+  {
+    "heat": 4,
+    "station_id": 362
+  },
+  {
+    "heat": 17,
+    "station_id": 363
+  },
+  {
+    "heat": 3,
+    "station_id": 364
+  },
+  {
+    "heat": 13,
+    "station_id": 366
+  },
+  {
+    "heat": 15,
+    "station_id": 367
+  },
+  {
+    "heat": 18,
+    "station_id": 368
+  },
+  {
+    "heat": 6,
+    "station_id": 369
+  },
+  {
+    "heat": 1,
+    "station_id": 372
+  },
+  {
+    "heat": 4,
+    "station_id": 373
+  },
+  {
+    "heat": 8,
+    "station_id": 376
+  },
+  {
+    "heat": 8,
+    "station_id": 377
+  },
+  {
+    "heat": 23,
+    "station_id": 380
+  },
+  {
+    "heat": 14,
+    "station_id": 383
+  },
+  {
+    "heat": 14,
+    "station_id": 385
+  },
+  {
+    "heat": 8,
+    "station_id": 386
+  },
+  {
+    "heat": 6,
+    "station_id": 387
+  },
+  {
+    "heat": 8,
+    "station_id": 388
+  },
+  {
+    "heat": 11,
+    "station_id": 389
+  },
+  {
+    "heat": 3,
+    "station_id": 390
+  },
+  {
+    "heat": 4,
+    "station_id": 391
+  },
+  {
+    "heat": 3,
+    "station_id": 392
+  },
+  {
+    "heat": 4,
+    "station_id": 393
+  },
+  {
+    "heat": 8,
+    "station_id": 394
+  },
+  {
+    "heat": 2,
+    "station_id": 396
+  },
+  {
+    "heat": 13,
+    "station_id": 397
+  },
+  {
+    "heat": 5,
+    "station_id": 398
+  },
+  {
+    "heat": 5,
+    "station_id": 399
+  },
+  {
+    "heat": 1,
+    "station_id": 400
+  },
+  {
+    "heat": 13,
+    "station_id": 401
+  },
+  {
+    "heat": 29,
+    "station_id": 402
+  },
+  {
+    "heat": 17,
+    "station_id": 403
+  },
+  {
+    "heat": 8,
+    "station_id": 405
+  },
+  {
+    "heat": 10,
+    "station_id": 406
+  },
+  {
+    "heat": 6,
+    "station_id": 408
+  },
+  {
+    "heat": 10,
+    "station_id": 410
+  },
+  {
+    "heat": 19,
+    "station_id": 411
+  },
+  {
+    "heat": 15,
+    "station_id": 412
+  },
+  {
+    "heat": 13,
+    "station_id": 415
+  },
+  {
+    "heat": 5,
+    "station_id": 416
+  },
+  {
+    "heat": 5,
+    "station_id": 417
+  },
+  {
+    "heat": 4,
+    "station_id": 418
+  },
+  {
+    "heat": 1,
+    "station_id": 419
+  },
+  {
+    "heat": 2,
+    "station_id": 420
+  },
+  {
+    "heat": 1,
+    "station_id": 421
+  },
+  {
+    "heat": 18,
+    "station_id": 422
+  },
+  {
+    "heat": 35,
+    "station_id": 426
+  },
+  {
+    "heat": 5,
+    "station_id": 427
+  },
+  {
+    "heat": 18,
+    "station_id": 432
+  },
+  {
+    "heat": 7,
+    "station_id": 434
+  },
+  {
+    "heat": 27,
+    "station_id": 435
+  },
+  {
+    "heat": 6,
+    "station_id": 436
+  },
+  {
+    "heat": 9,
+    "station_id": 437
+  },
+  {
+    "heat": 16,
+    "station_id": 438
+  },
+  {
+    "heat": 11,
+    "station_id": 439
+  },
+  {
+    "heat": 8,
+    "station_id": 440
+  },
+  {
+    "heat": 21,
+    "station_id": 442
+  },
+  {
+    "heat": 4,
+    "station_id": 443
+  },
+  {
+    "heat": 11,
+    "station_id": 445
+  },
+  {
+    "heat": 25,
+    "station_id": 446
+  },
+  {
+    "heat": 25,
+    "station_id": 447
+  },
+  {
+    "heat": 10,
+    "station_id": 448
+  },
+  {
+    "heat": 13,
+    "station_id": 450
+  },
+  {
+    "heat": 15,
+    "station_id": 453
+  },
+  {
+    "heat": 13,
+    "station_id": 454
+  },
+  {
+    "heat": 9,
+    "station_id": 455
+  },
+  {
+    "heat": 6,
+    "station_id": 456
+  },
+  {
+    "heat": 10,
+    "station_id": 458
+  },
+  {
+    "heat": 11,
+    "station_id": 459
+  },
+  {
+    "heat": 8,
+    "station_id": 460
+  },
+  {
+    "heat": 28,
+    "station_id": 461
+  },
+  {
+    "heat": 9,
+    "station_id": 462
+  },
+  {
+    "heat": 5,
+    "station_id": 464
+  },
+  {
+    "heat": 10,
+    "station_id": 465
+  },
+  {
+    "heat": 10,
+    "station_id": 466
+  },
+  {
+    "heat": 2,
+    "station_id": 467
+  },
+  {
+    "heat": 28,
+    "station_id": 468
+  },
+  {
+    "heat": 12,
+    "station_id": 469
+  },
+  {
+    "heat": 8,
+    "station_id": 470
+  },
+  {
+    "heat": 7,
+    "station_id": 471
+  },
+  {
+    "heat": 11,
+    "station_id": 472
+  },
+  {
+    "heat": 6,
+    "station_id": 473
+  },
+  {
+    "heat": 18,
+    "station_id": 474
+  },
+  {
+    "heat": 13,
+    "station_id": 476
+  },
+  {
+    "heat": 9,
+    "station_id": 477
+  },
+  {
+    "heat": 25,
+    "station_id": 478
+  },
+  {
+    "heat": 14,
+    "station_id": 479
+  },
+  {
+    "heat": 18,
+    "station_id": 480
+  },
+  {
+    "heat": 4,
+    "station_id": 481
+  },
+  {
+    "heat": 11,
+    "station_id": 482
+  },
+  {
+    "heat": 11,
+    "station_id": 483
+  },
+  {
+    "heat": 14,
+    "station_id": 484
+  },
+  {
+    "heat": 7,
+    "station_id": 485
+  },
+  {
+    "heat": 12,
+    "station_id": 486
+  },
+  {
+    "heat": 10,
+    "station_id": 487
+  },
+  {
+    "heat": 15,
+    "station_id": 489
+  },
+  {
+    "heat": 24,
+    "station_id": 490
+  },
+  {
+    "heat": 14,
+    "station_id": 491
+  },
+  {
+    "heat": 14,
+    "station_id": 492
+  },
+  {
+    "heat": 7,
+    "station_id": 493
+  },
+  {
+    "heat": 19,
+    "station_id": 494
+  },
+  {
+    "heat": 11,
+    "station_id": 495
+  },
+  {
+    "heat": 15,
+    "station_id": 496
+  },
+  {
+    "heat": 34,
+    "station_id": 497
+  },
+  {
+    "heat": 31,
+    "station_id": 499
+  },
+  {
+    "heat": 7,
+    "station_id": 500
+  },
+  {
+    "heat": 21,
+    "station_id": 501
+  },
+  {
+    "heat": 11,
+    "station_id": 502
+  },
+  {
+    "heat": 5,
+    "station_id": 503
+  },
+  {
+    "heat": 16,
+    "station_id": 505
+  },
+  {
+    "heat": 27,
+    "station_id": 507
+  },
+  {
+    "heat": 13,
+    "station_id": 508
+  },
+  {
+    "heat": 30,
+    "station_id": 509
+  },
+  {
+    "heat": 5,
+    "station_id": 513
+  },
+  {
+    "heat": 34,
+    "station_id": 514
+  },
+  {
+    "heat": 14,
+    "station_id": 515
+  },
+  {
+    "heat": 6,
+    "station_id": 516
+  },
+  {
+    "heat": 10,
+    "station_id": 517
+  },
+  {
+    "heat": 19,
+    "station_id": 518
+  },
+  {
+    "heat": 23,
+    "station_id": 519
+  },
+  {
+    "heat": 7,
+    "station_id": 520
+  },
+  {
+    "heat": 4,
+    "station_id": 522
+  },
+  {
+    "heat": 21,
+    "station_id": 523
+  },
+  {
+    "heat": 8,
+    "station_id": 525
+  },
+  {
+    "heat": 12,
+    "station_id": 526
+  },
+  {
+    "heat": 31,
+    "station_id": 528
+  },
+  {
+    "heat": 6,
+    "station_id": 529
+  },
+  {
+    "heat": 10,
+    "station_id": 530
+  },
+  {
+    "heat": 8,
+    "station_id": 531
+  },
+  {
+    "heat": 19,
+    "station_id": 532
+  },
+  {
+    "heat": 15,
+    "station_id": 533
+  },
+  {
+    "heat": 7,
+    "station_id": 534
+  },
+  {
+    "heat": 15,
+    "station_id": 536
+  },
+  {
+    "heat": 18,
+    "station_id": 539
+  },
+  {
+    "heat": 18,
+    "station_id": 545
+  },
+  {
+    "heat": 10,
+    "station_id": 546
+  },
+  {
+    "heat": 5,
+    "station_id": 2000
+  },
+  {
+    "heat": 8,
+    "station_id": 2002
+  },
+  {
+    "heat": 1,
+    "station_id": 2005
+  },
+  {
+    "heat": 25,
+    "station_id": 2006
+  },
+  {
+    "heat": 22,
+    "station_id": 2008
+  },
+  {
+    "heat": 5,
+    "station_id": 2009
+  },
+  {
+    "heat": 4,
+    "station_id": 2010
+  },
+  {
+    "heat": 19,
+    "station_id": 2012
+  },
+  {
+    "heat": 7,
+    "station_id": 2017
+  },
+  {
+    "heat": 6,
+    "station_id": 2021
+  },
+  {
+    "heat": 4,
+    "station_id": 2022
+  },
+  {
+    "heat": 23,
+    "station_id": 3016
+  },
+  {
+    "heat": 4,
+    "station_id": 3041
+  },
+  {
+    "heat": 8,
+    "station_id": 3042
+  },
+  {
+    "heat": 8,
+    "station_id": 3043
+  },
+  {
+    "heat": 5,
+    "station_id": 3044
+  },
+  {
+    "heat": 9,
+    "station_id": 3047
+  },
+  {
+    "heat": 3,
+    "station_id": 3048
+  },
+  {
+    "heat": 3,
+    "station_id": 3049
+  },
+  {
+    "heat": 5,
+    "station_id": 3050
+  },
+  {
+    "heat": 10,
+    "station_id": 3052
+  },
+  {
+    "heat": 3,
+    "station_id": 3053
+  },
+  {
+    "heat": 5,
+    "station_id": 3054
+  },
+  {
+    "heat": 9,
+    "station_id": 3055
+  },
+  {
+    "heat": 9,
+    "station_id": 3056
+  },
+  {
+    "heat": 4,
+    "station_id": 3057
+  },
+  {
+    "heat": 1,
+    "station_id": 3058
+  },
+  {
+    "heat": 5,
+    "station_id": 3059
+  },
+  {
+    "heat": 4,
+    "station_id": 3060
+  },
+  {
+    "heat": 5,
+    "station_id": 3061
+  },
+  {
+    "heat": 3,
+    "station_id": 3062
+  },
+  {
+    "heat": 1,
+    "station_id": 3064
+  },
+  {
+    "heat": 1,
+    "station_id": 3065
+  },
+  {
+    "heat": 1,
+    "station_id": 3066
+  },
+  {
+    "heat": 11,
+    "station_id": 3067
+  },
+  {
+    "heat": 3,
+    "station_id": 3068
+  },
+  {
+    "heat": 2,
+    "station_id": 3069
+  },
+  {
+    "heat": 5,
+    "station_id": 3071
+  },
+  {
+    "heat": 2,
+    "station_id": 3072
+  },
+  {
+    "heat": 5,
+    "station_id": 3074
+  },
+  {
+    "heat": 1,
+    "station_id": 3075
+  },
+  {
+    "heat": 5,
+    "station_id": 3076
+  },
+  {
+    "heat": 9,
+    "station_id": 3077
+  },
+  {
+    "heat": 8,
+    "station_id": 3078
+  },
+  {
+    "heat": 7,
+    "station_id": 3080
+  },
+  {
+    "heat": 4,
+    "station_id": 3081
+  },
+  {
+    "heat": 9,
+    "station_id": 3082
+  },
+  {
+    "heat": 4,
+    "station_id": 3083
+  },
+  {
+    "heat": 4,
+    "station_id": 3085
+  },
+  {
+    "heat": 7,
+    "station_id": 3086
+  },
+  {
+    "heat": 4,
+    "station_id": 3087
+  },
+  {
+    "heat": 6,
+    "station_id": 3088
+  },
+  {
+    "heat": 4,
+    "station_id": 3092
+  },
+  {
+    "heat": 6,
+    "station_id": 3093
+  },
+  {
+    "heat": 9,
+    "station_id": 3094
+  },
+  {
+    "heat": 3,
+    "station_id": 3095
+  },
+  {
+    "heat": 13,
+    "station_id": 3096
+  },
+  {
+    "heat": 7,
+    "station_id": 3100
+  },
+  {
+    "heat": 11,
+    "station_id": 3101
+  },
+  {
+    "heat": 3,
+    "station_id": 3102
+  },
+  {
+    "heat": 1,
+    "station_id": 3105
+  },
+  {
+    "heat": 5,
+    "station_id": 3106
+  },
+  {
+    "heat": 4,
+    "station_id": 3107
+  },
+  {
+    "heat": 5,
+    "station_id": 3108
+  },
+  {
+    "heat": 5,
+    "station_id": 3109
+  },
+  {
+    "heat": 8,
+    "station_id": 3110
+  },
+  {
+    "heat": 7,
+    "station_id": 3112
+  },
+  {
+    "heat": 5,
+    "station_id": 3115
+  },
+  {
+    "heat": 6,
+    "station_id": 3116
+  },
+  {
+    "heat": 4,
+    "station_id": 3117
+  },
+  {
+    "heat": 5,
+    "station_id": 3118
+  },
+  {
+    "heat": 3,
+    "station_id": 3119
+  },
+  {
+    "heat": 2,
+    "station_id": 3121
+  },
+  {
+    "heat": 2,
+    "station_id": 3122
+  },
+  {
+    "heat": 3,
+    "station_id": 3123
+  },
+  {
+    "heat": 12,
+    "station_id": 3124
+  },
+  {
+    "heat": 3,
+    "station_id": 3125
+  },
+  {
+    "heat": 11,
+    "station_id": 3126
+  },
+  {
+    "heat": 2,
+    "station_id": 3127
+  },
+  {
+    "heat": 13,
+    "station_id": 3129
+  },
+  {
+    "heat": 2,
+    "station_id": 3130
+  },
+  {
+    "heat": 8,
+    "station_id": 3131
+  },
+  {
+    "heat": 8,
+    "station_id": 3132
+  },
+  {
+    "heat": 10,
+    "station_id": 3134
+  },
+  {
+    "heat": 3,
+    "station_id": 3135
+  },
+  {
+    "heat": 6,
+    "station_id": 3136
+  },
+  {
+    "heat": 18,
+    "station_id": 3137
+  },
+  {
+    "heat": 6,
+    "station_id": 3139
+  },
+  {
+    "heat": 21,
+    "station_id": 3140
+  },
+  {
+    "heat": 52,
+    "station_id": 3141
+  },
+  {
+    "heat": 19,
+    "station_id": 3142
+  },
+  {
+    "heat": 5,
+    "station_id": 3143
+  },
+  {
+    "heat": 9,
+    "station_id": 3144
+  },
+  {
+    "heat": 5,
+    "station_id": 3145
+  },
+  {
+    "heat": 8,
+    "station_id": 3146
+  },
+  {
+    "heat": 7,
+    "station_id": 3147
+  },
+  {
+    "heat": 19,
+    "station_id": 3148
+  },
+  {
+    "heat": 5,
+    "station_id": 3150
+  },
+  {
+    "heat": 7,
+    "station_id": 3151
+  },
+  {
+    "heat": 9,
+    "station_id": 3152
+  },
+  {
+    "heat": 9,
+    "station_id": 3154
+  },
+  {
+    "heat": 11,
+    "station_id": 3156
+  },
+  {
+    "heat": 11,
+    "station_id": 3157
+  },
+  {
+    "heat": 9,
+    "station_id": 3158
+  },
+  {
+    "heat": 7,
+    "station_id": 3159
+  },
+  {
+    "heat": 11,
+    "station_id": 3160
+  },
+  {
+    "heat": 11,
+    "station_id": 3161
+  },
+  {
+    "heat": 15,
+    "station_id": 3163
+  },
+  {
+    "heat": 16,
+    "station_id": 3164
+  },
+  {
+    "heat": 22,
+    "station_id": 3165
+  },
+  {
+    "heat": 7,
+    "station_id": 3166
+  },
+  {
+    "heat": 23,
+    "station_id": 3167
+  },
+  {
+    "heat": 15,
+    "station_id": 3168
+  },
+  {
+    "heat": 7,
+    "station_id": 3169
+  },
+  {
+    "heat": 8,
+    "station_id": 3170
+  },
+  {
+    "heat": 12,
+    "station_id": 3171
+  },
+  {
+    "heat": 5,
+    "station_id": 3172
+  },
+  {
+    "heat": 13,
+    "station_id": 3173
+  },
+  {
+    "heat": 12,
+    "station_id": 3175
+  },
+  {
+    "heat": 4,
+    "station_id": 3177
+  },
+  {
+    "heat": 6,
+    "station_id": 3178
+  },
+  {
+    "heat": 3,
+    "station_id": 3179
+  },
+  {
+    "heat": 1,
+    "station_id": 3221
+  },
+  {
+    "heat": 17,
+    "station_id": 3226
+  },
+  {
+    "heat": 7,
+    "station_id": 3231
+  },
+  {
+    "heat": 12,
+    "station_id": 3232
+  },
+  {
+    "heat": 8,
+    "station_id": 3233
+  },
+  {
+    "heat": 13,
+    "station_id": 3235
+  },
+  {
+    "heat": 6,
+    "station_id": 3236
+  },
+  {
+    "heat": 8,
+    "station_id": 3241
+  },
+  {
+    "heat": 7,
+    "station_id": 3242
+  },
+  {
+    "heat": 3,
+    "station_id": 3243
+  },
+  {
+    "heat": 17,
+    "station_id": 3244
+  },
+  {
+    "heat": 5,
+    "station_id": 3246
+  },
+  {
+    "heat": 1,
+    "station_id": 3249
+  },
+  {
+    "heat": 18,
+    "station_id": 3255
+  },
+  {
+    "heat": 14,
+    "station_id": 3256
+  },
+  {
+    "heat": 10,
+    "station_id": 3259
+  },
+  {
+    "heat": 11,
+    "station_id": 3260
+  },
+  {
+    "heat": 23,
+    "station_id": 3263
+  },
+  {
+    "heat": 18,
+    "station_id": 3282
+  },
+  {
+    "heat": 6,
+    "station_id": 3283
+  },
+  {
+    "heat": 4,
+    "station_id": 3284
+  },
+  {
+    "heat": 7,
+    "station_id": 3285
+  },
+  {
+    "heat": 9,
+    "station_id": 3286
+  },
+  {
+    "heat": 12,
+    "station_id": 3287
+  },
+  {
+    "heat": 17,
+    "station_id": 3288
+  },
+  {
+    "heat": 3,
+    "station_id": 3289
+  },
+  {
+    "heat": 7,
+    "station_id": 3290
+  },
+  {
+    "heat": 7,
+    "station_id": 3292
+  },
+  {
+    "heat": 6,
+    "station_id": 3293
+  },
+  {
+    "heat": 1,
+    "station_id": 3294
+  },
+  {
+    "heat": 7,
+    "station_id": 3295
+  },
+  {
+    "heat": 7,
+    "station_id": 3296
+  },
+  {
+    "heat": 5,
+    "station_id": 3297
+  },
+  {
+    "heat": 3,
+    "station_id": 3298
+  },
+  {
+    "heat": 5,
+    "station_id": 3299
+  },
+  {
+    "heat": 10,
+    "station_id": 3300
+  },
+  {
+    "heat": 14,
+    "station_id": 3301
+  },
+  {
+    "heat": 1,
+    "station_id": 3302
+  },
+  {
+    "heat": 1,
+    "station_id": 3303
+  },
+  {
+    "heat": 2,
+    "station_id": 3304
+  },
+  {
+    "heat": 16,
+    "station_id": 3305
+  },
+  {
+    "heat": 1,
+    "station_id": 3306
+  },
+  {
+    "heat": 5,
+    "station_id": 3307
+  },
+  {
+    "heat": 1,
+    "station_id": 3308
+  },
+  {
+    "heat": 10,
+    "station_id": 3310
+  },
+  {
+    "heat": 5,
+    "station_id": 3311
+  },
+  {
+    "heat": 13,
+    "station_id": 3312
+  },
+  {
+    "heat": 2,
+    "station_id": 3313
+  },
+  {
+    "heat": 15,
+    "station_id": 3314
+  },
+  {
+    "heat": 1,
+    "station_id": 3315
+  },
+  {
+    "heat": 10,
+    "station_id": 3318
+  },
+  {
+    "heat": 5,
+    "station_id": 3319
+  },
+  {
+    "heat": 10,
+    "station_id": 3320
+  },
+  {
+    "heat": 3,
+    "station_id": 3321
+  },
+  {
+    "heat": 8,
+    "station_id": 3322
+  },
+  {
+    "heat": 18,
+    "station_id": 3323
+  },
+  {
+    "heat": 1,
+    "station_id": 3324
+  },
+  {
+    "heat": 4,
+    "station_id": 3325
+  },
+  {
+    "heat": 2,
+    "station_id": 3326
+  },
+  {
+    "heat": 7,
+    "station_id": 3327
+  },
+  {
+    "heat": 7,
+    "station_id": 3328
+  },
+  {
+    "heat": 4,
+    "station_id": 3331
+  },
+  {
+    "heat": 3,
+    "station_id": 3332
+  },
+  {
+    "heat": 3,
+    "station_id": 3335
+  },
+  {
+    "heat": 3,
+    "station_id": 3336
+  },
+  {
+    "heat": 1,
+    "station_id": 3337
+  },
+  {
+    "heat": 6,
+    "station_id": 3338
+  },
+  {
+    "heat": 1,
+    "station_id": 3341
+  },
+  {
+    "heat": 2,
+    "station_id": 3343
+  },
+  {
+    "heat": 5,
+    "station_id": 3344
+  },
+  {
+    "heat": 11,
+    "station_id": 3345
+  },
+  {
+    "heat": 7,
+    "station_id": 3346
+  },
+  {
+    "heat": 1,
+    "station_id": 3348
+  },
+  {
+    "heat": 11,
+    "station_id": 3349
+  },
+  {
+    "heat": 11,
+    "station_id": 3350
+  },
+  {
+    "heat": 18,
+    "station_id": 3351
+  },
+  {
+    "heat": 4,
+    "station_id": 3352
+  },
+  {
+    "heat": 8,
+    "station_id": 3354
+  },
+  {
+    "heat": 3,
+    "station_id": 3355
+  },
+  {
+    "heat": 8,
+    "station_id": 3356
+  },
+  {
+    "heat": 4,
+    "station_id": 3357
+  },
+  {
+    "heat": 5,
+    "station_id": 3358
+  },
+  {
+    "heat": 2,
+    "station_id": 3359
+  },
+  {
+    "heat": 16,
+    "station_id": 3360
+  },
+  {
+    "heat": 3,
+    "station_id": 3361
+  },
+  {
+    "heat": 3,
+    "station_id": 3362
+  },
+  {
+    "heat": 5,
+    "station_id": 3363
+  },
+  {
+    "heat": 3,
+    "station_id": 3364
+  },
+  {
+    "heat": 8,
+    "station_id": 3365
+  },
+  {
+    "heat": 9,
+    "station_id": 3366
+  },
+  {
+    "heat": 11,
+    "station_id": 3367
+  },
+  {
+    "heat": 6,
+    "station_id": 3368
+  },
+  {
+    "heat": 8,
+    "station_id": 3369
+  },
+  {
+    "heat": 7,
+    "station_id": 3370
+  },
+  {
+    "heat": 22,
+    "station_id": 3372
+  },
+  {
+    "heat": 3,
+    "station_id": 3373
+  },
+  {
+    "heat": 25,
+    "station_id": 3374
+  },
+  {
+    "heat": 5,
+    "station_id": 3375
+  },
+  {
+    "heat": 9,
+    "station_id": 3376
+  },
+  {
+    "heat": 3,
+    "station_id": 3377
+  },
+  {
+    "heat": 9,
+    "station_id": 3378
+  },
+  {
+    "heat": 2,
+    "station_id": 3379
+  },
+  {
+    "heat": 2,
+    "station_id": 3382
+  },
+  {
+    "heat": 9,
+    "station_id": 3383
+  },
+  {
+    "heat": 3,
+    "station_id": 3384
+  },
+  {
+    "heat": 2,
+    "station_id": 3386
+  },
+  {
+    "heat": 3,
+    "station_id": 3387
+  },
+  {
+    "heat": 1,
+    "station_id": 3388
+  },
+  {
+    "heat": 2,
+    "station_id": 3389
+  },
+  {
+    "heat": 8,
+    "station_id": 3390
+  },
+  {
+    "heat": 4,
+    "station_id": 3391
+  },
+  {
+    "heat": 2,
+    "station_id": 3392
+  },
+  {
+    "heat": 2,
+    "station_id": 3396
+  },
+  {
+    "heat": 6,
+    "station_id": 3397
+  },
+  {
+    "heat": 2,
+    "station_id": 3399
+  },
+  {
+    "heat": 12,
+    "station_id": 3400
+  },
+  {
+    "heat": 3,
+    "station_id": 3402
+  },
+  {
+    "heat": 1,
+    "station_id": 3403
+  },
+  {
+    "heat": 1,
+    "station_id": 3404
+  },
+  {
+    "heat": 2,
+    "station_id": 3405
+  },
+  {
+    "heat": 6,
+    "station_id": 3408
+  },
+  {
+    "heat": 6,
+    "station_id": 3409
+  },
+  {
+    "heat": 1,
+    "station_id": 3410
+  },
+  {
+    "heat": 4,
+    "station_id": 3411
+  },
+  {
+    "heat": 2,
+    "station_id": 3412
+  },
+  {
+    "heat": 3,
+    "station_id": 3414
+  },
+  {
+    "heat": 1,
+    "station_id": 3415
+  },
+  {
+    "heat": 9,
+    "station_id": 3416
+  },
+  {
+    "heat": 1,
+    "station_id": 3417
+  },
+  {
+    "heat": 2,
+    "station_id": 3418
+  },
+  {
+    "heat": 4,
+    "station_id": 3419
+  },
+  {
+    "heat": 1,
+    "station_id": 3420
+  },
+  {
+    "heat": 6,
+    "station_id": 3422
+  },
+  {
+    "heat": 15,
+    "station_id": 3423
+  },
+  {
+    "heat": 8,
+    "station_id": 3424
+  },
+  {
+    "heat": 6,
+    "station_id": 3425
+  },
+  {
+    "heat": 9,
+    "station_id": 3429
+  },
+  {
+    "heat": 2,
+    "station_id": 3430
+  },
+  {
+    "heat": 31,
+    "station_id": 3435
+  },
+  {
+    "heat": 7,
+    "station_id": 3437
+  },
+  {
+    "heat": 5,
+    "station_id": 3440
+  },
+  {
+    "heat": 8,
+    "station_id": 3443
+  },
+  {
+    "heat": 2,
+    "station_id": 3452
+  },
+  {
+    "heat": 4,
+    "station_id": 3453
+  },
+  {
+    "heat": 4,
+    "station_id": 3454
+  },
+  {
+    "heat": 3,
+    "station_id": 3456
+  },
+  {
+    "heat": 3,
+    "station_id": 3457
+  },
+  {
+    "heat": 12,
+    "station_id": 3461
+  },
+  {
+    "heat": 5,
+    "station_id": 3463
+  },
+  {
+    "heat": 3,
+    "station_id": 3469
+  },
+  {
+    "heat": 8,
+    "station_id": 3472
+  },
+  {
+    "heat": 4,
+    "station_id": 3477
+  },
+  {
+    "heat": 7,
+    "station_id": 3486
+  },
+  {
+    "heat": 4,
+    "station_id": 3490
+  },
+  {
+    "heat": 2,
+    "station_id": 3491
+  },
+  {
+    "heat": 7,
+    "station_id": 3492
+  },
+  {
+    "heat": 7,
+    "station_id": 3493
+  },
+  {
+    "heat": 4,
+    "station_id": 3494
+  },
+  {
+    "heat": 1,
+    "station_id": 3495
+  },
+  {
+    "heat": 2,
+    "station_id": 3496
+  },
+  {
+    "heat": 17,
+    "station_id": 3497
+  },
+  {
+    "heat": 2,
+    "station_id": 3498
+  },
+  {
+    "heat": 1,
+    "station_id": 3499
+  },
+  {
+    "heat": 2,
+    "station_id": 3500
+  },
+  {
+    "heat": 4,
+    "station_id": 3501
+  },
+  {
+    "heat": 3,
+    "station_id": 3502
+  },
+  {
+    "heat": 3,
+    "station_id": 3503
+  },
+  {
+    "heat": 3,
+    "station_id": 3504
+  },
+  {
+    "heat": 1,
+    "station_id": 3505
+  },
+  {
+    "heat": 3,
+    "station_id": 3506
+  },
+  {
+    "heat": 2,
+    "station_id": 3507
+  },
+  {
+    "heat": 9,
+    "station_id": 3508
+  },
+  {
+    "heat": 8,
+    "station_id": 3509
+  },
+  {
+    "heat": 4,
+    "station_id": 3510
+  },
+  {
+    "heat": 4,
+    "station_id": 3511
+  },
+  {
+    "heat": 3,
+    "station_id": 3513
+  },
+  {
+    "heat": 10,
+    "station_id": 3514
+  },
+  {
+    "heat": 7,
+    "station_id": 3516
+  },
+  {
+    "heat": 1,
+    "station_id": 3517
+  },
+  {
+    "heat": 9,
+    "station_id": 3518
+  },
+  {
+    "heat": 1,
+    "station_id": 3520
+  },
+  {
+    "heat": 11,
+    "station_id": 3521
+  },
+  {
+    "heat": 1,
+    "station_id": 3522
+  },
+  {
+    "heat": 5,
+    "station_id": 3523
+  },
+  {
+    "heat": 1,
+    "station_id": 3524
+  },
+  {
+    "heat": 3,
+    "station_id": 3525
+  },
+  {
+    "heat": 9,
+    "station_id": 3526
+  },
+  {
+    "heat": 6,
+    "station_id": 3527
+  },
+  {
+    "heat": 5,
+    "station_id": 3528
+  },
+  {
+    "heat": 4,
+    "station_id": 3529
+  },
+  {
+    "heat": 2,
+    "station_id": 3530
+  },
+  {
+    "heat": 2,
+    "station_id": 3531
+  },
+  {
+    "heat": 4,
+    "station_id": 3532
+  },
+  {
+    "heat": 16,
+    "station_id": 3533
+  },
+  {
+    "heat": 6,
+    "station_id": 3534
+  },
+  {
+    "heat": 6,
+    "station_id": 3535
+  },
+  {
+    "heat": 8,
+    "station_id": 3536
+  },
+  {
+    "heat": 5,
+    "station_id": 3537
+  },
+  {
+    "heat": 6,
+    "station_id": 3538
+  },
+  {
+    "heat": 6,
+    "station_id": 3540
+  },
+  {
+    "heat": 4,
+    "station_id": 3541
+  },
+  {
+    "heat": 4,
+    "station_id": 3542
+  },
+  {
+    "heat": 4,
+    "station_id": 3543
+  },
+  {
+    "heat": 3,
+    "station_id": 3544
+  },
+  {
+    "heat": 3,
+    "station_id": 3545
+  },
+  {
+    "heat": 7,
+    "station_id": 3547
+  },
+  {
+    "heat": 2,
+    "station_id": 3549
+  },
+  {
+    "heat": 4,
+    "station_id": 3551
+  },
+  {
+    "heat": 8,
+    "station_id": 3552
+  },
+  {
+    "heat": 3,
+    "station_id": 3553
+  },
+  {
+    "heat": 5,
+    "station_id": 3554
+  },
+  {
+    "heat": 7,
+    "station_id": 3555
+  },
+  {
+    "heat": 2,
+    "station_id": 3557
+  },
+  {
+    "heat": 3,
+    "station_id": 3558
+  },
+  {
+    "heat": 1,
+    "station_id": 3561
+  },
+  {
+    "heat": 4,
+    "station_id": 3562
+  },
+  {
+    "heat": 1,
+    "station_id": 3563
+  },
+  {
+    "heat": 1,
+    "station_id": 3564
+  },
+  {
+    "heat": 7,
+    "station_id": 3565
+  },
+  {
+    "heat": 1,
+    "station_id": 3566
+  },
+  {
+    "heat": 1,
+    "station_id": 3568
+  },
+  {
+    "heat": 10,
+    "station_id": 3569
+  },
+  {
+    "heat": 6,
+    "station_id": 3570
+  },
+  {
+    "heat": 5,
+    "station_id": 3571
+  },
+  {
+    "heat": 5,
+    "station_id": 3572
+  },
+  {
+    "heat": 4,
+    "station_id": 3573
+  },
+  {
+    "heat": 3,
+    "station_id": 3574
+  },
+  {
+    "heat": 2,
+    "station_id": 3575
+  },
+  {
+    "heat": 13,
+    "station_id": 3576
+  },
+  {
+    "heat": 1,
+    "station_id": 3577
+  },
+  {
+    "heat": 1,
+    "station_id": 3578
+  },
+  {
+    "heat": 5,
+    "station_id": 3579
+  },
+  {
+    "heat": 5,
+    "station_id": 3580
+  },
+  {
+    "heat": 14,
+    "station_id": 3581
+  },
+  {
+    "heat": 5,
+    "station_id": 3583
+  },
+  {
+    "heat": 9,
+    "station_id": 3584
+  },
+  {
+    "heat": 1,
+    "station_id": 3585
+  },
+  {
+    "heat": 1,
+    "station_id": 3586
+  },
+  {
+    "heat": 3,
+    "station_id": 3588
+  },
+  {
+    "heat": 4,
+    "station_id": 3589
+  },
+  {
+    "heat": 3,
+    "station_id": 3590
+  },
+  {
+    "heat": 5,
+    "station_id": 3591
+  },
+  {
+    "heat": 5,
+    "station_id": 3592
+  },
+  {
+    "heat": 6,
+    "station_id": 3593
+  },
+  {
+    "heat": 4,
+    "station_id": 3595
+  },
+  {
+    "heat": 5,
+    "station_id": 3597
+  },
+  {
+    "heat": 5,
+    "station_id": 3598
+  },
+  {
+    "heat": 4,
+    "station_id": 3599
+  },
+  {
+    "heat": 5,
+    "station_id": 3600
+  },
+  {
+    "heat": 2,
+    "station_id": 3601
+  },
+  {
+    "heat": 1,
+    "station_id": 3602
+  },
+  {
+    "heat": 9,
+    "station_id": 3603
+  },
+  {
+    "heat": 2,
+    "station_id": 3604
+  },
+  {
+    "heat": 2,
+    "station_id": 3605
+  },
+  {
+    "heat": 2,
+    "station_id": 3607
+  },
+  {
+    "heat": 2,
+    "station_id": 3608
+  },
+  {
+    "heat": 2,
+    "station_id": 3609
+  },
+  {
+    "heat": 1,
+    "station_id": 3610
+  },
+  {
+    "heat": 4,
+    "station_id": 3611
+  },
+  {
+    "heat": 7,
+    "station_id": 3613
+  },
+  {
+    "heat": 7,
+    "station_id": 3614
+  },
+  {
+    "heat": 2,
+    "station_id": 3615
+  },
+  {
+    "heat": 5,
+    "station_id": 3616
+  },
+  {
+    "heat": 1,
+    "station_id": 3617
+  },
+  {
+    "heat": 11,
+    "station_id": 3618
+  },
+  {
+    "heat": 4,
+    "station_id": 3619
+  },
+  {
+    "heat": 6,
+    "station_id": 3620
+  },
+  {
+    "heat": 3,
+    "station_id": 3621
+  },
+  {
+    "heat": 8,
+    "station_id": 3628
+  },
+  {
+    "heat": 3,
+    "station_id": 3629
+  },
+  {
+    "heat": 5,
+    "station_id": 3630
+  },
+  {
+    "heat": 5,
+    "station_id": 3637
+  },
+  {
+    "heat": 23,
+    "station_id": 3641
+  },
+  {
+    "heat": 2,
+    "station_id": 3646
+  },
+  {
+    "heat": 4,
+    "station_id": 3648
+  },
+  {
+    "heat": 4,
+    "station_id": 3654
+  },
+  {
+    "heat": 16,
+    "station_id": 3656
+  },
+  {
+    "heat": 5,
+    "station_id": 3658
+  },
+  {
+    "heat": 3,
+    "station_id": 3661
+  },
+  {
+    "heat": 9,
+    "station_id": 3664
+  },
+  {
+    "heat": 8,
+    "station_id": 3668
+  },
+  {
+    "heat": 6,
+    "station_id": 3671
+  },
+  {
+    "heat": 17,
+    "station_id": 3673
+  },
+  {
+    "heat": 1,
+    "station_id": 3674
+  },
+  {
+    "heat": 5,
+    "station_id": 3676
+  },
+  {
+    "heat": 7,
+    "station_id": 3680
+  },
+  {
+    "heat": 11,
+    "station_id": 3686
+  },
+  {
+    "heat": 28,
+    "station_id": 3687
+  },
+  {
+    "heat": 8,
+    "station_id": 3689
+  },
+  {
+    "heat": 5,
+    "station_id": 3690
+  },
+  {
+    "heat": 8,
+    "station_id": 3697
+  },
+  {
+    "heat": 20,
+    "station_id": 3699
+  },
+  {
+    "heat": 3,
+    "station_id": 3708
+  },
+  {
+    "heat": 15,
+    "station_id": 3709
+  },
+  {
+    "heat": 33,
+    "station_id": 3711
+  },
+  {
+    "heat": 11,
+    "station_id": 3712
+  },
+  {
+    "heat": 5,
+    "station_id": 3714
+  },
+  {
+    "heat": 4,
+    "station_id": 3715
+  },
+  {
+    "heat": 13,
+    "station_id": 3718
+  },
+  {
+    "heat": 9,
+    "station_id": 3721
+  },
+  {
+    "heat": 5,
+    "station_id": 3723
+  },
+  {
+    "heat": 15,
+    "station_id": 3724
+  },
+  {
+    "heat": 18,
+    "station_id": 3725
+  },
+  {
+    "heat": 7,
+    "station_id": 3726
+  },
+  {
+    "heat": 4,
+    "station_id": 3727
+  },
+  {
+    "heat": 2,
+    "station_id": 3728
+  },
+  {
+    "heat": 6,
+    "station_id": 3731
+  },
+  {
+    "heat": 3,
+    "station_id": 3733
+  },
+  {
+    "heat": 7,
+    "station_id": 3734
+  },
+  {
+    "heat": 15,
+    "station_id": 3735
+  },
+  {
+    "heat": 7,
+    "station_id": 3736
+  },
+  {
+    "heat": 16,
+    "station_id": 3737
+  },
+  {
+    "heat": 8,
+    "station_id": 3738
+  },
+  {
+    "heat": 4,
+    "station_id": 3739
+  },
+  {
+    "heat": 11,
+    "station_id": 3740
+  },
+  {
+    "heat": 6,
+    "station_id": 3744
+  },
+  {
+    "heat": 1,
+    "station_id": 3745
+  },
+  {
+    "heat": 19,
+    "station_id": 3746
+  },
+  {
+    "heat": 7,
+    "station_id": 3749
+  },
+  {
+    "heat": 6,
+    "station_id": 3755
+  },
+  {
+    "heat": 4,
+    "station_id": 3756
+  },
+  {
+    "heat": 2,
+    "station_id": 3758
+  },
+  {
+    "heat": 3,
+    "station_id": 3759
+  },
+  {
+    "heat": 1,
+    "station_id": 3760
+  },
+  {
+    "heat": 1,
+    "station_id": 3761
+  },
+  {
+    "heat": 3,
+    "station_id": 3764
+  },
+  {
+    "heat": 1,
+    "station_id": 3765
+  },
+  {
+    "heat": 2,
+    "station_id": 3766
+  },
+  {
+    "heat": 4,
+    "station_id": 3767
+  },
+  {
+    "heat": 3,
+    "station_id": 3768
+  },
+  {
+    "heat": 1,
+    "station_id": 3769
+  },
+  {
+    "heat": 8,
+    "station_id": 3771
+  },
+  {
+    "heat": 2,
+    "station_id": 3773
+  },
+  {
+    "heat": 1,
+    "station_id": 3774
+  },
+  {
+    "heat": 3,
+    "station_id": 3775
+  },
+  {
+    "heat": 3,
+    "station_id": 3776
+  },
+  {
+    "heat": 3,
+    "station_id": 3777
+  },
+  {
+    "heat": 4,
+    "station_id": 3778
+  },
+  {
+    "heat": 1,
+    "station_id": 3779
+  },
+  {
+    "heat": 1,
+    "station_id": 3780
+  },
+  {
+    "heat": 1,
+    "station_id": 3781
+  },
+  {
+    "heat": 2,
+    "station_id": 3782
+  },
+  {
+    "heat": 7,
+    "station_id": 3783
+  },
+  {
+    "heat": 9,
+    "station_id": 3785
+  },
+  {
+    "heat": 5,
+    "station_id": 3786
+  },
+  {
+    "heat": 4,
+    "station_id": 3787
+  },
+  {
+    "heat": 5,
+    "station_id": 3789
+  },
+  {
+    "heat": 3,
+    "station_id": 3790
+  },
+  {
+    "heat": 8,
+    "station_id": 3793
+  },
+  {
+    "heat": 2,
+    "station_id": 3795
+  },
+  {
+    "heat": 14,
+    "station_id": 3798
+  },
+  {
+    "heat": 12,
+    "station_id": 3799
+  },
+  {
+    "heat": 5,
+    "station_id": 3804
+  },
+  {
+    "heat": 1,
+    "station_id": 3808
+  },
+  {
+    "heat": 6,
+    "station_id": 3809
+  },
+  {
+    "heat": 5,
+    "station_id": 3811
+  },
+  {
+    "heat": 18,
+    "station_id": 3812
+  },
+  {
+    "heat": 9,
+    "station_id": 3814
+  },
+  {
+    "heat": 6,
+    "station_id": 3815
+  },
+  {
+    "heat": 2,
+    "station_id": 3818
+  },
+  {
+    "heat": 1,
+    "station_id": 3819
+  },
+  {
+    "heat": 1,
+    "station_id": 3821
+  },
+  {
+    "heat": 2,
+    "station_id": 3822
+  },
+  {
+    "heat": 7,
+    "station_id": 3823
+  },
+  {
+    "heat": 3,
+    "station_id": 3824
+  },
+  {
+    "heat": 1,
+    "station_id": 3825
+  },
+  {
+    "heat": 1,
+    "station_id": 3827
+  },
+  {
+    "heat": 1,
+    "station_id": 3828
+  },
+  {
+    "heat": 1,
+    "station_id": 3829
+  },
+  {
+    "heat": 3,
+    "station_id": 3830
+  },
+  {
+    "heat": 4,
+    "station_id": 3831
+  },
+  {
+    "heat": 1,
+    "station_id": 3832
+  },
+  {
+    "heat": 2,
+    "station_id": 3834
+  },
+  {
+    "heat": 2,
+    "station_id": 3835
+  },
+  {
+    "heat": 1,
+    "station_id": 3837
+  },
+  {
+    "heat": 1,
+    "station_id": 3838
+  },
+  {
+    "heat": 3,
+    "station_id": 3840
+  },
+  {
+    "heat": 2,
+    "station_id": 3842
+  },
+  {
+    "heat": 1,
+    "station_id": 3845
+  },
+  {
+    "heat": 2,
+    "station_id": 3846
+  },
+  {
+    "heat": 2,
+    "station_id": 3847
+  },
+  {
+    "heat": 1,
+    "station_id": 3850
+  },
+  {
+    "heat": 2,
+    "station_id": 3852
+  },
+  {
+    "heat": 1,
+    "station_id": 3855
+  },
+  {
+    "heat": 5,
+    "station_id": 3856
+  },
+  {
+    "heat": 1,
+    "station_id": 3857
+  },
+  {
+    "heat": 2,
+    "station_id": 3858
+  },
+  {
+    "heat": 4,
+    "station_id": 3859
+  },
+  {
+    "heat": 2,
+    "station_id": 3860
+  },
+  {
+    "heat": 1,
+    "station_id": 3862
+  },
+  {
+    "heat": 1,
+    "station_id": 3863
+  },
+  {
+    "heat": 2,
+    "station_id": 3864
+  },
+  {
+    "heat": 1,
+    "station_id": 3865
+  },
+  {
+    "heat": 4,
+    "station_id": 3868
+  },
+  {
+    "heat": 2,
+    "station_id": 3871
+  },
+  {
+    "heat": 1,
+    "station_id": 3872
+  },
+  {
+    "heat": 4,
+    "station_id": 3876
+  },
+  {
+    "heat": 2,
+    "station_id": 3879
+  },
+  {
+    "heat": 2,
+    "station_id": 3880
+  },
+  {
+    "heat": 10,
+    "station_id": 3881
+  },
+  {
+    "heat": 2,
+    "station_id": 3882
+  },
+  {
+    "heat": 1,
+    "station_id": 3884
+  },
+  {
+    "heat": 2,
+    "station_id": 3885
+  },
+  {
+    "heat": 1,
+    "station_id": 3887
+  },
+  {
+    "heat": 1,
+    "station_id": 3888
+  },
+  {
+    "heat": 1,
+    "station_id": 3890
+  },
+  {
+    "heat": 4,
+    "station_id": 3891
+  },
+  {
+    "heat": 1,
+    "station_id": 3892
+  },
+  {
+    "heat": 2,
+    "station_id": 3893
+  },
+  {
+    "heat": 2,
+    "station_id": 3895
+  },
+  {
+    "heat": 1,
+    "station_id": 3897
+  },
+  {
+    "heat": 5,
+    "station_id": 3898
+  },
+  {
+    "heat": 2,
+    "station_id": 3899
+  },
+  {
+    "heat": 3,
+    "station_id": 3900
+  },
+  {
+    "heat": 4,
+    "station_id": 3901
+  },
+  {
+    "heat": 1,
+    "station_id": 3903
+  },
+  {
+    "heat": 5,
+    "station_id": 3905
+  },
+  {
+    "heat": 16,
+    "station_id": 3906
+  },
+  {
+    "heat": 1,
+    "station_id": 3907
+  },
+  {
+    "heat": 1,
+    "station_id": 3911
+  },
+  {
+    "heat": 3,
+    "station_id": 3913
+  },
+  {
+    "heat": 9,
+    "station_id": 3914
+  },
+  {
+    "heat": 4,
+    "station_id": 3916
+  },
+  {
+    "heat": 2,
+    "station_id": 3917
+  },
+  {
+    "heat": 8,
+    "station_id": 3918
+  },
+  {
+    "heat": 10,
+    "station_id": 3919
+  },
+  {
+    "heat": 2,
+    "station_id": 3920
+  },
+  {
+    "heat": 1,
+    "station_id": 3921
+  },
+  {
+    "heat": 1,
+    "station_id": 3924
+  },
+  {
+    "heat": 1,
+    "station_id": 3929
+  },
+  {
+    "heat": 1,
+    "station_id": 3931
+  },
+  {
+    "heat": 4,
+    "station_id": 3932
+  },
+  {
+    "heat": 4,
+    "station_id": 3935
+  },
+  {
+    "heat": 2,
+    "station_id": 3944
+  },
+  {
+    "heat": 2,
+    "station_id": 3945
+  },
+  {
+    "heat": 14,
+    "station_id": 3946
+  },
+  {
+    "heat": 1,
+    "station_id": 3947
+  },
+  {
+    "heat": 2,
+    "station_id": 3955
+  },
+  {
+    "heat": 3,
+    "station_id": 3961
+  },
+  {
+    "heat": 3,
+    "station_id": 3967
+  },
+  {
+    "heat": 5,
+    "station_id": 3986
+  },
+  {
+    "heat": 1,
+    "station_id": 3989
+  },
+  {
+    "heat": 36,
+    "station_id": 3992
+  },
+  {
+    "heat": 18,
+    "station_id": 3993
+  },
+  {
+    "heat": 1,
+    "station_id": 3994
+  },
+  {
+    "heat": 1,
+    "station_id": 3995
+  },
+  {
+    "heat": 1,
+    "station_id": 3996
+  },
+  {
+    "heat": 3,
+    "station_id": 3998
+  },
+  {
+    "heat": 1,
+    "station_id": 4000
+  },
+  {
+    "heat": 3,
+    "station_id": 4007
+  },
+  {
+    "heat": 2,
+    "station_id": 4009
+  },
+  {
+    "heat": 1,
+    "station_id": 4010
+  },
+  {
+    "heat": 9,
+    "station_id": 4016
+  },
+  {
+    "heat": 6,
+    "station_id": 4017
+  },
+  {
+    "heat": 1,
+    "station_id": 4019
+  },
+  {
+    "heat": 6,
+    "station_id": 4020
+  }
+]

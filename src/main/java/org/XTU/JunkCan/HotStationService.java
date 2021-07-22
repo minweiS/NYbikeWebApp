@@ -1,8 +1,7 @@
-package org.XTU.web;
+package org.XTU.JunkCan;
 
 import cn.hutool.json.JSONUtil;
 import org.XTU.pojo.HotStation;
-import org.XTU.service.RealtimeService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,9 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/realtime/hots")
+@WebServlet("/data/HeatMap")
 public class HotStationService extends HttpServlet {
-    RealtimeService service = new RealtimeService();
+//    RealtimeService service = new RealtimeService();
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        //1. 获取请求参数

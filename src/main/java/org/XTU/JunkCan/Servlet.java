@@ -1,4 +1,4 @@
-package org.XTU.web;
+package org.XTU.JunkCan;
 
 public class Servlet {
 }
