@@ -1,12 +1,12 @@
 <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
-<div id="main" class="c1" style="width: 300px;height:500px;display: inline-block"></div>
-<div id="div1" class="c1" style="width: 500px;height:500px;display: inline-block">
+<div id="main" class="c1" style="width: 800px;height:800px;display: inline-block"></div>
+<div id="div1" class="c1" style="width: 800px;height:800px;display: inline-block">
     <div id="div2" class="c1" style="height:50px;">
         站点id:<span id="sid"></span> &nbsp;&nbsp;&nbsp;
         站点名称:<span id="sname"></span> &nbsp;&nbsp;&nbsp;
-        时间周期:<input id="hour" type="number" min="1" value="1" onclick="">
+<!--        时间周期:<input id="hour" type="number" min="1" value="1" onclick="">-->
     </div>
-    <div id="div3" class="c1" style="height:430px;"></div>
+    <div id="div3" class="c1" style="height:730px;"></div>
 </div>
 <script type="text/javascript">
     var myChart = echarts.init(document.getElementById('main'));//main与id对应
@@ -234,8 +234,9 @@
             trigger: 'item'
         },
         bmap: {
-            center: [-73.985689,40.748455],
-            zoom: 15,
+            // center: [-73.985689,40.748455],
+            center: [-73.9452125,40.7343412],
+            zoom: 14,
             roam: true,
             mapStyle: {
                 //     styleJson: [{
