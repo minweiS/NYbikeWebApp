@@ -1,0 +1,8 @@
+1.不同站点损坏的桩的数量
+select station_id,num_docks_disabled,created_time from (select * from t_status order by created_time desc ) a group by station_id;
+2.不同站点，可用桩数量和可用自行车数量对比 （可用桩是x轴，可用自行车是y轴）
+select station_id,num_docks_available,num_bikes_available,created_time from (select * from t_status order by created_time desc ) a group by station_id;
+
+说明：
+查找到的数据是所有桩最后一次向总台汇报时，汇报上来的状态，因此created_time是不同的。
+大多数桩的最后一次汇报都是同一次，但少数桩在这一次并没有汇报，因此查询了其最后一次汇报的状态。
