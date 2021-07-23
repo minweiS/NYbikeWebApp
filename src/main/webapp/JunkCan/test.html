@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+  <tr class="shouh">
+    <th>    <input type="checkbox" id="Out" value="0" onclick="CheckStatus(this.value)"/>
+      基于取车&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" id="In" value="1" onclick="CheckStatus(this.value)"/>
+      基于还车</th>
+  </tr>
+</table>
+<script type="text/javascript">
+  //复选框二选一
+  function CheckStatus(value) {
+    if (value == 0) {
+      document.getElementById("Out").checked = true;
+      document.getElementById("In").checked = false;
+    }
+    if (value == 1) {
+      document.getElementById("Out").checked = false;
+      document.getElementById("In").checked = true;
+    }
+  }
+</script>
+</body>
+</html>

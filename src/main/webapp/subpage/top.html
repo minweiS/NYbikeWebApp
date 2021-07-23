@@ -1,0 +1,49 @@
+星期：<input id="week" type="number" min="1" max="5"><br>
+时间：<input id="hour" type="number" min="1" max="24"><br>
+<button id="btn-search" onclick="fn1()">查询</button>
+<div id="main" style="height:800px;margin: 0px auto"></div>
+<script type="text/javascript">
+    //请求的路径
+    var url="realtime/tt";
+    function fn1(){
+        // 1. 收集表单数据
+        var week=$("#week").val();
+        if(week==""){
+            alert("星期不能为空");
+            return;
+        }
+        var hour=$("#hour").val();
+        if(hour==""){
+            alert("时间不能为空");
+            return;
+        }
+        // 封装请求参数
+        var params={
+            "week":week,
+            "hour":hour
+        }
+       // 发送AJAX请求
+        $.get(url,params,function (result) {
+            console.log(result);
+            var myChart = echarts.init(document.getElementById('main'));
+            option = {
+                xAxis: {
+                    type: 'category',
+                    data: result.xData
+                },
+                yAxis: {
+                    type: 'value'
+                },
+                series: [{
+                    data: result.yData,
+                    type: 'bar',
+                    showBackground: true,
+                    backgroundStyle: {
+                        color: 'rgba(180, 180, 180, 0.2)'
+                    }
+                }],
+            }
+               myChart.setOption(option);
+            });
+    }
+</script>

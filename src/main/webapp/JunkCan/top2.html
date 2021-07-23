@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自行车和电动车总体使用量前五的站点</title>
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/echarts.min.js"></script>
+</head>
+<body>
+
+<div id="main" style="height:500px;width:500px;margin: 0px auto">
+    <div>自行车和电动车总体使用量前五的站点</div>
+</div>
+
+<script type="text/javascript">
+    //请求的路径
+    var url="realtime/realtime1";
+
+        $.get(url,function (result) {
+            console.log(result);
+            var myChart = echarts.init(document.getElementById('main'));
+            option = {
+                xAxis: {
+                    type: 'category',
+                    data: result.xData
+                },
+                yAxis: {
+                    type: 'value'
+                },
+                series: [{
+                    data: result.yData,
+                    type: 'bar',
+                    showBackground: true,
+                    backgroundStyle: {
+                        color: 'rgba(180, 180, 180, 0.2)'
+                    }
+                }],
+            }
+               myChart.setOption(option);
+            });
+</script>
+</body>
+</html>

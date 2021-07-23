@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>纽约公共单车历史热力图(基于取车)</title>
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/echarts.min.js"></script>
+    <title>纽约公共单车历史热力图(基于还车)</title>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/echarts.min.js"></script>
     <script src="https://api.map.baidu.com/api?v=3.0&ak=vQV1xW48CytDdo7XmGlT0hv3xGlod4nF"></script>
-    <script src="js/bmap.js"></script>
-    <script src="js/geoCoordMap.js"></script>
-    <script src="js/info.js"></script>
-    <script src="js/nameIdMap.js"></script>
+    <script src="../js/bmap.js"></script>
+    <script src="../js/geoCoordMap.js"></script>
+    <script src="../js/info.js"></script>
+    <script src="../js/nameIdMap.js"></script>
     <style type="text/css">
         .c1 {
             border: 1px solid black;
@@ -35,7 +35,7 @@
 <div id="main" style="height:900px;margin: 0px auto;position:relative" ></div>
 <script type="text/javascript">
     // 请求的路径
-    var url = "data/OutHeatMap";
+    var url = "data/InHeatMap";
     // 初始化
     var myChart1 = echarts.init(document.getElementById('main'));
     //声明两个数组用来存放数据

@@ -1,0 +1,152 @@
+
+<div style="backdrop-filter: saturate(180%) blur(20px);z-index: 3 ;position:absolute;top:10%;left:18%;display: inline-block;border: 1px solid black">
+    日期：<input id="date" name="date" required min="2020-06-01" max="2020-06-30" type="date"/>
+    时间段：<select id = "time" name="time">
+    <option value="1">0-6(午夜)</option>
+    <option value="2" selected>7-9 (早上通勤)</option>
+    <option value="3">10-12(上午工作)</option>
+    <option value="4">13-14(午休)</option>
+    <option value="5">15-17(下午工作)</option>
+    <option value="6">18-20(下班)</option>
+    <option value="7">21-23(夜生活)</option>
+</select>
+<!--    <div style = "display: inline-block">-->
+<!--        <tr class="shouh" >-->
+<!--            <th>-->
+<!--                <input type="checkbox"  id="Out" value="0" checked onclick="CheckStatus(this.value)"/>-->
+<!--                基于取车&nbsp;&nbsp;-->
+<!--                <input type="checkbox" id="In" value="1" onclick="CheckStatus(this.value)"/>-->
+<!--                基于还车&nbsp;&nbsp;&nbsp;-->
+<!--            </th>-->
+<!--        </tr>-->
+<!--    </div>-->
+    <button id="btn-search" onclick="clickfn1()">查询</button>
+</div>
+
+<div id="main" style="height:900px;margin: 0px auto;position:relative" ></div>
+<!--<script type="text/javascript">-->
+<!--    //复选框二选一-->
+<!--    function CheckStatus(value) {-->
+<!--        if (value == 0) {-->
+<!--            document.getElementById("Out").checked = true;-->
+<!--            document.getElementById("In").checked = false;-->
+<!--        }-->
+<!--        if (value == 1) {-->
+<!--            document.getElementById("Out").checked = false;-->
+<!--            document.getElementById("In").checked = true;-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<script type="text/javascript">
+    // 请求的路径
+    var url = "data/OutHeatMap";
+    // var check = $('input[name="In"]checked')
+    // if (check){
+    //     url = "data/InHeatMap"
+    // }else{
+    //     url = "data/OutHeatMap"
+    // }
+    // 初始化
+    var myChart1 = echarts.init(document.getElementById('main'));
+    //声明两个数组用来存放数据
+    var points1 = [];
+    var points2 = [];
+    var points3 = [];
+
+    function clickfn1(){
+        points1 = [];
+        points2 = [];
+        points3 = [];
+        // var check = $('input[name="In"]checked')
+        // if (check === 1){
+        //     url = "data/InHeatMap"
+        // }else{
+        //     url = "data/OutHeatMap"
+        // }
+        var date = $("#date").val();
+        if(date==""){
+            alert("请选择日期！");
+            return;
+        }
+        var time = $("#time option:selected").val();
+        //封装请求参数
+        var params = {
+            "date":date,
+            "time":time
+        }
+        //发送AJAX请求
+        $.get(url,params,function(result){
+            console.log(result);
+            for(var index in result){
+                var obj=result[index];
+                var sid=obj.station_id;
+                var sname=idNameMap[sid];
+                var latlon=geoCoordMap[sname];
+                if (latlon==undefined){
+                    continue;
+                }
+                var newObj={
+                    "coord":latlon,
+                    "elevation":obj.heat
+                };
+                points1.push(newObj)
+            }
+            points2.push(points1);
+            console.log(points2)
+
+            points3 = [].concat.apply([], points2.map(function (track) {
+                return track.map(function (seg) {
+                    // console.log(seg)
+                    return seg.coord.concat(Math.floor(seg.elevation / 6));
+                });
+            }));
+            console.log(points3)
+            option1 = {
+                series: [
+                    {
+                        type: 'heatmap',
+                        coordinateSystem: 'bmap',
+                        data: points3,
+                        pointSize: 5,
+                        blurSize: 6
+                    }]
+            };
+            // myChart1.clear();
+            // myChart1.setOption(option);
+            myChart1.setOption(option1);
+        })
+    }
+
+
+    option = {
+        animation: false,
+        bmap: {
+            center: [-73.985693, 40.748459],
+            zoom: 13,
+            roam: true,
+            mapStyle: {}
+        },
+        visualMap: {
+            show: true,
+            top: 'top',
+            min: 0,
+            max: 5,
+            seriesIndex: 0,
+            calculable: true,
+            inRange: {
+                color: [ 'blue', 'green', 'yellow', 'red','black']
+            }
+        },
+        series: [
+            {
+            type: 'heatmap',
+            coordinateSystem: 'bmap',
+            data: points3,
+            pointSize: 5,
+            blurSize: 7
+        }]
+    };
+
+    myChart1.setOption(option);
+
+</script>
